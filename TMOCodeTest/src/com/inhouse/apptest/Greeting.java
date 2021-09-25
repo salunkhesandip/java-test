@@ -1,20 +1,19 @@
 package com.inhouse.apptest;
 
+import java.util.Scanner;
+
 public class Greeting {
 
 	public static void main(String[] args) {
-	System.out.println("Hello World!");
-	int ch = 2;
-	switch(ch) {
-	case 1:
-	case 2:
-		System.out.println("1");
-		break;
-		
-		default :
-			System.out.println("default case");
-	}
-	
+		String input = null;
+		try (Scanner scanner = new Scanner(System.in)) {
+			input = scanner.nextLine();
+		}
+		String output = convertToUpper(input);
+		System.out.println(output);
 	}
 
+	protected static String convertToUpper(String input) {
+			return input.toUpperCase();
+		}
 }
