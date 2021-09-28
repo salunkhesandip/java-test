@@ -1,0 +1,5 @@
+
+curl -v 'http://localhost:8080/hello?name=Sandip'
+curl -v -F 'file=@abc.txt' 'http://localhost:8080/upload'
+curl -v 'http://localhost:8080/upper' -H 'Content-Type: application/json' -d'{"name": "Sandip"}'
+curl --location --request POST 'http://localhost:8080'
