@@ -3,7 +3,6 @@ package com.inhouse.interviewtest;
 import java.util.Scanner;
 
 public class Greetings {
-
 	public static void main(String[] args) {
 		System.out.println("Enter a greeting : ");
 		String input = null;
