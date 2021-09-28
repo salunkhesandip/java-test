@@ -18,8 +18,8 @@ class GreetingsTest {
 	
 		//assertEquals(eOut, out);
 		Assertions.assertAll(
-				()->assertNotNull(out),
-				()->assertEquals(eOut, out)
-				);
+							()->assertNotNull(out),
+							()->assertEquals(eOut, out)
+							);
 	}
 }
