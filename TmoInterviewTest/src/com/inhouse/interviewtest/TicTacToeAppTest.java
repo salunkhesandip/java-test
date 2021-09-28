@@ -18,5 +18,4 @@ class TicTacToeAppTest {
 		boolean status = TicTacToeApp.isGameOver(board, 'X');
 		assertTrue(status);
 	}
-
 }
